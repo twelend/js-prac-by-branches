@@ -5,30 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
-    <title>12 | Paint</title>
+    <title>Stopwatch</title>
 </head>
 <body>
     <div class="wrapper">
-        <div class="nav_container">
-            <h2>TWELEND</h2>
-
-            <div class="changeColor">
-                <label for="colorBtn">Color</label>
-                <input id="colorBtn" type="color">
-            </div>
-
-            <div class="changeStroke">
-                <label for="strokeWidth">Stroke width</label>
-                <input id="strokeWidth" type="number" value="5">
-            </div>
-
-            <button id="clear">CLEAR</button>
+        <div class="time padding__container">
+            <span id="minutes">00:</span>
+            <span id="seconds">00,</span>
+            <span id="miliseconds">00</span>
         </div>
-        <div class="cvsBlock">
-            <canvas id="cvs">
 
-            </canvas>
+        <div class="buttons margin__container">
+            <div class="mainLap">
+                <button class="lapBtn">Lap</button>
+            </div>
+
+            <div class="mainStart">
+                <button class="startBtn">Start</button>
+            </div>
+        </div>
+        
+        <div class="lapsContainer">
+                
         </div>
     </div>
     <script src="main.js"></script>
