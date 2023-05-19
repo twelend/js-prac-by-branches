@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Js prac</title>
+    <link rel="stylesheet" href="style.css">
+
+    <title>12 | Paint</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="nav_container">
+            <h2>TWELEND</h2>
+
+            <div class="changeColor">
+                <label for="colorBtn">Color</label>
+                <input id="colorBtn" type="color">
+            </div>
+
+            <div class="changeStroke">
+                <label for="strokeWidth">Stroke width</label>
+                <input id="strokeWidth" type="number" value="5">
+            </div>
+
+            <button id="clear">CLEAR</button>
+        </div>
+        <div class="cvsBlock">
+            <canvas id="cvs">
+
+            </canvas>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
